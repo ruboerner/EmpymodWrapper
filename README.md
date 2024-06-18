@@ -38,5 +38,9 @@ hz = empymod_loop(
         depth=0, res=[2e14, 100], freqtime=1e-3, verb=0)
 ```
 
+Note that the input parameters and their intended meaning are identical to those in `empymod`.
 
+## License
+
+This repository is &copy; Ralph-Uwe B&ouml;rner (2024) under an Apache 2.0 license.
 
