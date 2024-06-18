@@ -1,0 +1,7 @@
+name = "EmpymodWrapper"
+uuid = "d47a47e7-57f3-4773-b84f-8dc5c83b4829"
+authors = ["Ralph-Uwe Börner <rub@geophysik.tu-freiberg.de>"]
+version = "0.1.0"
+
+[deps]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
