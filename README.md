@@ -23,7 +23,7 @@ If all goes well, you should be able to use `empymod` from Julia.
 
 You can test the functionality with
 ```
-(@v1.10) pkg> test EmpymodWrapper
+] test EmpymodWrapper
 ```
 
 ## Usage
