@@ -21,6 +21,11 @@ Pkg.build("EmpymodWrapper")
 ```
 If all goes well, you should be able to use `empymod` from Julia.
 
+You can test the functionality with
+```
+(@v1.10) pkg> test EmpymodWrapper
+```
+
 ## Usage
 
 A typical use of `EmpymodWrapper` looks like
@@ -32,5 +37,6 @@ hz = empymod_loop(
         rec=[offset, 0, 0, 0, 90],
         depth=0, res=[2e14, 100], freqtime=1e-3, verb=0)
 ```
+
 
 
